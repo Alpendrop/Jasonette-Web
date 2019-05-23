@@ -22,30 +22,38 @@ var app = Jason({
     },
     "body": {
       "header": {
-        "title": "Basic Example",
+        "title": "Greenstorm",
         "style": {
-          "background": "#3a3a3a",
-          "color": "#ffffff",
+          "background": "#ffffff",
+          "color": "#3a3a3a",
           "padding": "10"
         }
       },
-      "background": "#2a2a2a",
+      "background": "#ffffff",
       "sections": [{
         "items": [{
           "type": "label",
           "style": {
-            "color": "#ffffff",
+            "color": "#2a2a2a",
             "padding": "10"
           },
-          "text": "Item 1"
+          "text": "Bergamont E-Line Trailster 7.0"
         }, {
-          "type": "label",
-          "style": {
-            "color": "#ffffff",
-            "padding": "10"
-          },
-          "text": "Item 2"
-        }]
+  "type": "button",
+  "text": "Rent",
+  "style": {
+    "width": "50",
+    "height": "50",
+    "background": "#00ff00",
+    "color": "#ffffff",
+    "font": "HelveticaNeue",
+    "size": "12",
+    "corner_radius": "25"
+  },
+  "action": {
+    "trigger": "reload"
+  }
+}]
       }]
     }
   }
